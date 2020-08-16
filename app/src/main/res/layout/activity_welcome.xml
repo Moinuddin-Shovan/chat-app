@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".WelcomeActivity">
+
+    <TextView
+        android:id="@+id/welcome_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:text="Welcome to the page"
+        android:padding="10sp"/>
+
+    <Button
+        android:id="@+id/login_welcome_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#332aaf"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorAccent"/>
+    <Button
+        android:id="@+id/register_welcome_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Register"
+        android:textColor="#332aaf"
+        android:background="@color/colorAccent"/>
+
+</LinearLayout>
